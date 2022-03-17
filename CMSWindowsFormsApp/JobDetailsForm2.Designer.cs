@@ -163,7 +163,7 @@
             this.tblJobDetailsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.tblJobDetailsBindingNavigator.Name = "tblJobDetailsBindingNavigator";
             this.tblJobDetailsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.tblJobDetailsBindingNavigator.Size = new System.Drawing.Size(800, 33);
+            this.tblJobDetailsBindingNavigator.Size = new System.Drawing.Size(837, 33);
             this.tblJobDetailsBindingNavigator.TabIndex = 0;
             this.tblJobDetailsBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -264,7 +264,7 @@
             // carNoLabel
             // 
             carNoLabel.AutoSize = true;
-            carNoLabel.Location = new System.Drawing.Point(63, 43);
+            carNoLabel.Location = new System.Drawing.Point(41, 37);
             carNoLabel.Name = "carNoLabel";
             carNoLabel.Size = new System.Drawing.Size(71, 18);
             carNoLabel.TabIndex = 1;
@@ -273,7 +273,7 @@
             // carNoTextBox
             // 
             this.carNoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "CarNo", true));
-            this.carNoTextBox.Location = new System.Drawing.Point(140, 40);
+            this.carNoTextBox.Location = new System.Drawing.Point(118, 34);
             this.carNoTextBox.Name = "carNoTextBox";
             this.carNoTextBox.Size = new System.Drawing.Size(100, 28);
             this.carNoTextBox.TabIndex = 2;
@@ -281,7 +281,7 @@
             // jobDateLabel
             // 
             jobDateLabel.AutoSize = true;
-            jobDateLabel.Location = new System.Drawing.Point(45, 78);
+            jobDateLabel.Location = new System.Drawing.Point(23, 72);
             jobDateLabel.Name = "jobDateLabel";
             jobDateLabel.Size = new System.Drawing.Size(89, 18);
             jobDateLabel.TabIndex = 3;
@@ -290,7 +290,7 @@
             // jobDateDateTimePicker
             // 
             this.jobDateDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.tblJobDetailsBindingSource, "JobDate", true));
-            this.jobDateDateTimePicker.Location = new System.Drawing.Point(140, 74);
+            this.jobDateDateTimePicker.Location = new System.Drawing.Point(118, 68);
             this.jobDateDateTimePicker.Name = "jobDateDateTimePicker";
             this.jobDateDateTimePicker.Size = new System.Drawing.Size(200, 28);
             this.jobDateDateTimePicker.TabIndex = 4;
@@ -298,7 +298,7 @@
             // workIdLabel
             // 
             workIdLabel.AutoSize = true;
-            workIdLabel.Location = new System.Drawing.Point(54, 111);
+            workIdLabel.Location = new System.Drawing.Point(32, 105);
             workIdLabel.Name = "workIdLabel";
             workIdLabel.Size = new System.Drawing.Size(80, 18);
             workIdLabel.TabIndex = 5;
@@ -307,7 +307,7 @@
             // workIdTextBox
             // 
             this.workIdTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "WorkId", true));
-            this.workIdTextBox.Location = new System.Drawing.Point(140, 108);
+            this.workIdTextBox.Location = new System.Drawing.Point(118, 102);
             this.workIdTextBox.Name = "workIdTextBox";
             this.workIdTextBox.Size = new System.Drawing.Size(100, 28);
             this.workIdTextBox.TabIndex = 6;
@@ -315,7 +315,7 @@
             // kMsLabel
             // 
             kMsLabel.AutoSize = true;
-            kMsLabel.Location = new System.Drawing.Point(90, 145);
+            kMsLabel.Location = new System.Drawing.Point(68, 139);
             kMsLabel.Name = "kMsLabel";
             kMsLabel.Size = new System.Drawing.Size(44, 18);
             kMsLabel.TabIndex = 7;
@@ -324,7 +324,7 @@
             // kMsTextBox
             // 
             this.kMsTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "KMs", true));
-            this.kMsTextBox.Location = new System.Drawing.Point(140, 142);
+            this.kMsTextBox.Location = new System.Drawing.Point(118, 136);
             this.kMsTextBox.Name = "kMsTextBox";
             this.kMsTextBox.Size = new System.Drawing.Size(100, 28);
             this.kMsTextBox.TabIndex = 8;
@@ -332,7 +332,7 @@
             // turningLabel
             // 
             turningLabel.AutoSize = true;
-            turningLabel.Location = new System.Drawing.Point(54, 179);
+            turningLabel.Location = new System.Drawing.Point(32, 173);
             turningLabel.Name = "turningLabel";
             turningLabel.Size = new System.Drawing.Size(80, 18);
             turningLabel.TabIndex = 9;
@@ -341,7 +341,7 @@
             // turningTextBox
             // 
             this.turningTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Turning", true));
-            this.turningTextBox.Location = new System.Drawing.Point(140, 176);
+            this.turningTextBox.Location = new System.Drawing.Point(118, 170);
             this.turningTextBox.Name = "turningTextBox";
             this.turningTextBox.Size = new System.Drawing.Size(100, 28);
             this.turningTextBox.TabIndex = 10;
@@ -349,7 +349,7 @@
             // alignmentLabel
             // 
             alignmentLabel.AutoSize = true;
-            alignmentLabel.Location = new System.Drawing.Point(36, 213);
+            alignmentLabel.Location = new System.Drawing.Point(14, 207);
             alignmentLabel.Name = "alignmentLabel";
             alignmentLabel.Size = new System.Drawing.Size(98, 18);
             alignmentLabel.TabIndex = 11;
@@ -358,7 +358,7 @@
             // alignmentTextBox
             // 
             this.alignmentTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Alignment", true));
-            this.alignmentTextBox.Location = new System.Drawing.Point(140, 210);
+            this.alignmentTextBox.Location = new System.Drawing.Point(118, 204);
             this.alignmentTextBox.Name = "alignmentTextBox";
             this.alignmentTextBox.Size = new System.Drawing.Size(100, 28);
             this.alignmentTextBox.TabIndex = 12;
@@ -366,7 +366,7 @@
             // balancingLabel
             // 
             balancingLabel.AutoSize = true;
-            balancingLabel.Location = new System.Drawing.Point(36, 247);
+            balancingLabel.Location = new System.Drawing.Point(14, 241);
             balancingLabel.Name = "balancingLabel";
             balancingLabel.Size = new System.Drawing.Size(98, 18);
             balancingLabel.TabIndex = 13;
@@ -375,7 +375,7 @@
             // balancingTextBox
             // 
             this.balancingTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Balancing", true));
-            this.balancingTextBox.Location = new System.Drawing.Point(140, 244);
+            this.balancingTextBox.Location = new System.Drawing.Point(118, 238);
             this.balancingTextBox.Name = "balancingTextBox";
             this.balancingTextBox.Size = new System.Drawing.Size(100, 28);
             this.balancingTextBox.TabIndex = 14;
@@ -383,7 +383,7 @@
             // tiresLabel
             // 
             tiresLabel.AutoSize = true;
-            tiresLabel.Location = new System.Drawing.Point(72, 281);
+            tiresLabel.Location = new System.Drawing.Point(50, 275);
             tiresLabel.Name = "tiresLabel";
             tiresLabel.Size = new System.Drawing.Size(62, 18);
             tiresLabel.TabIndex = 15;
@@ -392,7 +392,7 @@
             // tiresTextBox
             // 
             this.tiresTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Tires", true));
-            this.tiresTextBox.Location = new System.Drawing.Point(140, 278);
+            this.tiresTextBox.Location = new System.Drawing.Point(118, 272);
             this.tiresTextBox.Name = "tiresTextBox";
             this.tiresTextBox.Size = new System.Drawing.Size(100, 28);
             this.tiresTextBox.TabIndex = 16;
@@ -400,7 +400,7 @@
             // weightsLabel
             // 
             weightsLabel.AutoSize = true;
-            weightsLabel.Location = new System.Drawing.Point(54, 315);
+            weightsLabel.Location = new System.Drawing.Point(32, 309);
             weightsLabel.Name = "weightsLabel";
             weightsLabel.Size = new System.Drawing.Size(80, 18);
             weightsLabel.TabIndex = 17;
@@ -409,7 +409,7 @@
             // weightsTextBox
             // 
             this.weightsTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Weights", true));
-            this.weightsTextBox.Location = new System.Drawing.Point(140, 312);
+            this.weightsTextBox.Location = new System.Drawing.Point(118, 306);
             this.weightsTextBox.Name = "weightsTextBox";
             this.weightsTextBox.Size = new System.Drawing.Size(100, 28);
             this.weightsTextBox.TabIndex = 18;
@@ -417,7 +417,7 @@
             // oilChangedLabel
             // 
             oilChangedLabel.AutoSize = true;
-            oilChangedLabel.Location = new System.Drawing.Point(18, 349);
+            oilChangedLabel.Location = new System.Drawing.Point(-4, 343);
             oilChangedLabel.Name = "oilChangedLabel";
             oilChangedLabel.Size = new System.Drawing.Size(116, 18);
             oilChangedLabel.TabIndex = 19;
@@ -426,7 +426,7 @@
             // oilChangedTextBox
             // 
             this.oilChangedTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "OilChanged", true));
-            this.oilChangedTextBox.Location = new System.Drawing.Point(140, 346);
+            this.oilChangedTextBox.Location = new System.Drawing.Point(118, 340);
             this.oilChangedTextBox.Name = "oilChangedTextBox";
             this.oilChangedTextBox.Size = new System.Drawing.Size(100, 28);
             this.oilChangedTextBox.TabIndex = 20;
@@ -434,7 +434,7 @@
             // oilQtyLabel
             // 
             oilQtyLabel.AutoSize = true;
-            oilQtyLabel.Location = new System.Drawing.Point(54, 383);
+            oilQtyLabel.Location = new System.Drawing.Point(32, 377);
             oilQtyLabel.Name = "oilQtyLabel";
             oilQtyLabel.Size = new System.Drawing.Size(80, 18);
             oilQtyLabel.TabIndex = 21;
@@ -443,7 +443,7 @@
             // oilQtyTextBox
             // 
             this.oilQtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "OilQty", true));
-            this.oilQtyTextBox.Location = new System.Drawing.Point(140, 380);
+            this.oilQtyTextBox.Location = new System.Drawing.Point(118, 374);
             this.oilQtyTextBox.Name = "oilQtyTextBox";
             this.oilQtyTextBox.Size = new System.Drawing.Size(100, 28);
             this.oilQtyTextBox.TabIndex = 22;
@@ -451,7 +451,7 @@
             // oilFilterLabel
             // 
             oilFilterLabel.AutoSize = true;
-            oilFilterLabel.Location = new System.Drawing.Point(431, 43);
+            oilFilterLabel.Location = new System.Drawing.Point(473, 37);
             oilFilterLabel.Name = "oilFilterLabel";
             oilFilterLabel.Size = new System.Drawing.Size(107, 18);
             oilFilterLabel.TabIndex = 23;
@@ -460,7 +460,7 @@
             // oilFilterTextBox
             // 
             this.oilFilterTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "OilFilter", true));
-            this.oilFilterTextBox.Location = new System.Drawing.Point(544, 40);
+            this.oilFilterTextBox.Location = new System.Drawing.Point(586, 34);
             this.oilFilterTextBox.Name = "oilFilterTextBox";
             this.oilFilterTextBox.Size = new System.Drawing.Size(100, 28);
             this.oilFilterTextBox.TabIndex = 24;
@@ -468,7 +468,7 @@
             // gearOilLabel
             // 
             gearOilLabel.AutoSize = true;
-            gearOilLabel.Location = new System.Drawing.Point(449, 77);
+            gearOilLabel.Location = new System.Drawing.Point(491, 71);
             gearOilLabel.Name = "gearOilLabel";
             gearOilLabel.Size = new System.Drawing.Size(89, 18);
             gearOilLabel.TabIndex = 25;
@@ -477,7 +477,7 @@
             // gearOilTextBox
             // 
             this.gearOilTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "GearOil", true));
-            this.gearOilTextBox.Location = new System.Drawing.Point(544, 74);
+            this.gearOilTextBox.Location = new System.Drawing.Point(586, 68);
             this.gearOilTextBox.Name = "gearOilTextBox";
             this.gearOilTextBox.Size = new System.Drawing.Size(100, 28);
             this.gearOilTextBox.TabIndex = 26;
@@ -485,7 +485,7 @@
             // gearOilQtyLabel
             // 
             gearOilQtyLabel.AutoSize = true;
-            gearOilQtyLabel.Location = new System.Drawing.Point(413, 111);
+            gearOilQtyLabel.Location = new System.Drawing.Point(455, 105);
             gearOilQtyLabel.Name = "gearOilQtyLabel";
             gearOilQtyLabel.Size = new System.Drawing.Size(125, 18);
             gearOilQtyLabel.TabIndex = 27;
@@ -494,7 +494,7 @@
             // gearOilQtyTextBox
             // 
             this.gearOilQtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "GearOilQty", true));
-            this.gearOilQtyTextBox.Location = new System.Drawing.Point(544, 108);
+            this.gearOilQtyTextBox.Location = new System.Drawing.Point(586, 102);
             this.gearOilQtyTextBox.Name = "gearOilQtyTextBox";
             this.gearOilQtyTextBox.Size = new System.Drawing.Size(100, 28);
             this.gearOilQtyTextBox.TabIndex = 28;
@@ -502,7 +502,7 @@
             // pointLabel
             // 
             pointLabel.AutoSize = true;
-            pointLabel.Location = new System.Drawing.Point(476, 145);
+            pointLabel.Location = new System.Drawing.Point(518, 139);
             pointLabel.Name = "pointLabel";
             pointLabel.Size = new System.Drawing.Size(62, 18);
             pointLabel.TabIndex = 29;
@@ -511,7 +511,7 @@
             // pointTextBox
             // 
             this.pointTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Point", true));
-            this.pointTextBox.Location = new System.Drawing.Point(544, 142);
+            this.pointTextBox.Location = new System.Drawing.Point(586, 136);
             this.pointTextBox.Name = "pointTextBox";
             this.pointTextBox.Size = new System.Drawing.Size(100, 28);
             this.pointTextBox.TabIndex = 30;
@@ -519,7 +519,7 @@
             // condenserLabel
             // 
             condenserLabel.AutoSize = true;
-            condenserLabel.Location = new System.Drawing.Point(440, 179);
+            condenserLabel.Location = new System.Drawing.Point(482, 173);
             condenserLabel.Name = "condenserLabel";
             condenserLabel.Size = new System.Drawing.Size(98, 18);
             condenserLabel.TabIndex = 31;
@@ -528,7 +528,7 @@
             // condenserTextBox
             // 
             this.condenserTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Condenser", true));
-            this.condenserTextBox.Location = new System.Drawing.Point(544, 176);
+            this.condenserTextBox.Location = new System.Drawing.Point(586, 170);
             this.condenserTextBox.Name = "condenserTextBox";
             this.condenserTextBox.Size = new System.Drawing.Size(100, 28);
             this.condenserTextBox.TabIndex = 32;
@@ -536,24 +536,26 @@
             // plugLabel
             // 
             plugLabel.AutoSize = true;
-            plugLabel.Location = new System.Drawing.Point(485, 213);
+            plugLabel.Location = new System.Drawing.Point(527, 207);
             plugLabel.Name = "plugLabel";
             plugLabel.Size = new System.Drawing.Size(53, 18);
             plugLabel.TabIndex = 33;
             plugLabel.Text = "Plug:";
+            plugLabel.Click += new System.EventHandler(this.plugLabel_Click);
             // 
             // plugTextBox
             // 
             this.plugTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Plug", true));
-            this.plugTextBox.Location = new System.Drawing.Point(544, 210);
+            this.plugTextBox.Location = new System.Drawing.Point(586, 204);
             this.plugTextBox.Name = "plugTextBox";
             this.plugTextBox.Size = new System.Drawing.Size(100, 28);
             this.plugTextBox.TabIndex = 34;
+            this.plugTextBox.TextChanged += new System.EventHandler(this.plugTextBox_TextChanged);
             // 
             // plugQtyLabel
             // 
             plugQtyLabel.AutoSize = true;
-            plugQtyLabel.Location = new System.Drawing.Point(449, 247);
+            plugQtyLabel.Location = new System.Drawing.Point(491, 241);
             plugQtyLabel.Name = "plugQtyLabel";
             plugQtyLabel.Size = new System.Drawing.Size(89, 18);
             plugQtyLabel.TabIndex = 35;
@@ -562,7 +564,7 @@
             // plugQtyTextBox
             // 
             this.plugQtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "PlugQty", true));
-            this.plugQtyTextBox.Location = new System.Drawing.Point(544, 244);
+            this.plugQtyTextBox.Location = new System.Drawing.Point(586, 238);
             this.plugQtyTextBox.Name = "plugQtyTextBox";
             this.plugQtyTextBox.Size = new System.Drawing.Size(100, 28);
             this.plugQtyTextBox.TabIndex = 36;
@@ -570,7 +572,7 @@
             // fuelFilterLabel
             // 
             fuelFilterLabel.AutoSize = true;
-            fuelFilterLabel.Location = new System.Drawing.Point(422, 281);
+            fuelFilterLabel.Location = new System.Drawing.Point(464, 275);
             fuelFilterLabel.Name = "fuelFilterLabel";
             fuelFilterLabel.Size = new System.Drawing.Size(116, 18);
             fuelFilterLabel.TabIndex = 37;
@@ -579,7 +581,7 @@
             // fuelFilterTextBox
             // 
             this.fuelFilterTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "FuelFilter", true));
-            this.fuelFilterTextBox.Location = new System.Drawing.Point(544, 278);
+            this.fuelFilterTextBox.Location = new System.Drawing.Point(586, 272);
             this.fuelFilterTextBox.Name = "fuelFilterTextBox";
             this.fuelFilterTextBox.Size = new System.Drawing.Size(100, 28);
             this.fuelFilterTextBox.TabIndex = 38;
@@ -587,7 +589,7 @@
             // airFilterLabel
             // 
             airFilterLabel.AutoSize = true;
-            airFilterLabel.Location = new System.Drawing.Point(431, 315);
+            airFilterLabel.Location = new System.Drawing.Point(473, 309);
             airFilterLabel.Name = "airFilterLabel";
             airFilterLabel.Size = new System.Drawing.Size(107, 18);
             airFilterLabel.TabIndex = 39;
@@ -596,7 +598,7 @@
             // airFilterTextBox
             // 
             this.airFilterTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "AirFilter", true));
-            this.airFilterTextBox.Location = new System.Drawing.Point(544, 312);
+            this.airFilterTextBox.Location = new System.Drawing.Point(586, 306);
             this.airFilterTextBox.Name = "airFilterTextBox";
             this.airFilterTextBox.Size = new System.Drawing.Size(100, 28);
             this.airFilterTextBox.TabIndex = 40;
@@ -604,7 +606,7 @@
             // remarksLabel
             // 
             remarksLabel.AutoSize = true;
-            remarksLabel.Location = new System.Drawing.Point(458, 349);
+            remarksLabel.Location = new System.Drawing.Point(500, 343);
             remarksLabel.Name = "remarksLabel";
             remarksLabel.Size = new System.Drawing.Size(80, 18);
             remarksLabel.TabIndex = 41;
@@ -613,7 +615,7 @@
             // remarksTextBox
             // 
             this.remarksTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tblJobDetailsBindingSource, "Remarks", true));
-            this.remarksTextBox.Location = new System.Drawing.Point(544, 346);
+            this.remarksTextBox.Location = new System.Drawing.Point(586, 340);
             this.remarksTextBox.Name = "remarksTextBox";
             this.remarksTextBox.Size = new System.Drawing.Size(100, 28);
             this.remarksTextBox.TabIndex = 42;
@@ -622,7 +624,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 452);
+            this.ClientSize = new System.Drawing.Size(837, 462);
             this.Controls.Add(remarksLabel);
             this.Controls.Add(this.remarksTextBox);
             this.Controls.Add(airFilterLabel);

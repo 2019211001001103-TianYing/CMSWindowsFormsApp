@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
 namespace CMSWindowsFormsApp
 {
     public partial class JobDetailsForm2 : Form
@@ -19,13 +17,9 @@ namespace CMSWindowsFormsApp
             InitializeComponent();
         }
 
-
-
         private void tblJobDetailsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
-
-
             this.tblJobDetailsBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.jobDetailsDataSet1);
 
@@ -35,6 +29,16 @@ namespace CMSWindowsFormsApp
         {
             // TODO: 这行代码将数据加载到表“jobDetailsDataSet1.tblJobDetails”中。您可以根据需要移动或移除它。
             this.tblJobDetailsTableAdapter.Fill(this.jobDetailsDataSet1.tblJobDetails);
+
+        }
+
+        private void plugTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void plugLabel_Click(object sender, EventArgs e)
+        {
 
         }
     }

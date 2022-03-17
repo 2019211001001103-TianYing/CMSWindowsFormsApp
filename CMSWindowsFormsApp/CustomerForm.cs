@@ -69,12 +69,57 @@ namespace CMSWindowsFormsApp
             else
             {
                 //database code
+                sqlDataAdapter1.Update(customerDataSet1);
+                MessageBox.Show("Database Updated");
             }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            customerDataSet1.Clear();
+            sqlDataAdapter1.Fill(customerDataSet1);
+            CurrentPosition();
+        }
+        private void CurrentPosition()
+        {
+            int currentPosition, ctr;
+            ctr = this.BindingContext[customerDataSet1, "tblCustomer"].Count;
+            if (ctr == 0)
+            {
+                textBox2.Text = "No records";
+            }
+            else
+            {
+                currentPosition = this.BindingContext[customerDataSet1, "tblCustomer"].Position + 1;
+                textBox2.Text = currentPosition.ToString() + "of" + ctr.ToString();
+            }
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            btnNext.BindingContext[customerDataSet1, "tblCustomer"].Position += 1;
+            CurrentPosition();
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+            btnPrevious.BindingContext[customerDataSet1, "tblCustomer"].Position -= 1;
+            CurrentPosition();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            customerDataSet1.Clear();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
